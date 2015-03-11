@@ -1,0 +1,293 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;  /*for Firefox*/
+    background-color: #fff;
+    font-family: myriad pro, linotype univers, sans-serif;
+    color: #6D6E70;
+}
+
+.container-fluid .white {
+	background-color: #fff;
+}
+
+.container-fluid .gradient {
+/*Fall-back color*/
+	background-color: #1B75BB;
+	background-image: linear-gradient(to right, #00A585, #1B75BB, #39B27B);
+	background: #1B75BB;
+	background: linear-gradient(to right, #00A585, #1B75BB, #39B27B);
+	overflow: hidden;
+
+}
+
+.banner {
+	background-color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #FBAF3F;
+}
+
+a:hover.navbar-brand {
+	color: #FBAF3F;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+.center {
+	text-align: center;
+}
+
+main {
+	color: #fff;
+}
+
+.padding {
+	padding-top: 3em;
+}
+
+.circle {
+	height: 200px;
+	width: 200px;
+	border-radius: 500px;
+	background-color: #fff;
+}
+
+.divider {
+	margin-top: 1em;
+	background-color: #FBAF3F;
+	width: 100%;
+	height: 2px;
+}
+
+footer {
+	margin-top: 1em;
+	text-align: center;
+}
+
+footer p, footer a {
+	color: #fff;
+	text-align: center;
+}
+
+footer a:hover {
+	color: #FBAF3F;
+}
+
+#ip {
+	display: block;
+	margin: 0;
+	color: #fff;
+}
+
+/*Inner Pages===============================*/
+
+.gradient {
+	margin-top: -1.5em;
+	padding: .5em 0 .5em 0;
+	/*Fall-back color*/
+	background-color: #1B75BB;
+	background-image: linear-gradient(to right, #00A585, #1B75BB, #39B27B);
+	background: #1B75BB;
+	background: linear-gradient(to right, #00A585, #1B75BB, #39B27B);
+	overflow: hidden;
+}
+
+h1 {
+	color: #fff;
+	font-size: 4em;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a h2  {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover h2  {
+	color: #FBAF3F;
+	text-decoration: none;
+}
+
+h2.gray {
+	color: #6D6E70;
+}
+
+h3 {
+	padding: 1em;
+	color: #6D6E70;
+}
+
+p {
+	color: #6D6E70;
+	text-align: left;
+	padding-left: 1em;
+}
+
+h4 {
+	color: #6D6E70;
+	text-align: center;
+}
+
+/*Form Styling=============================*/
+
+form {
+	text-align: left;
+	margin: 2em 5em 5em 5em;
+}
+
+label {
+	color: #6D6E70;
+	margin: .5em;
+}
+
+input {
+	margin: .5em;
+	color: #6D6E70;
+}
+
+.noMargin {
+	margin: -1em 1em -1em 3em;
+}
+
+select {
+	color: #6D6E70;
+}
+
+textarea {
+	margin: 0 1em 1em .5em;
+	color: #6D6E70;
+	width: 30em;
+}
+
+li.parsley-required {
+	color: #FBAF3F;
+}
+
+li.parsley-type {
+	color: #FBAF3F;
+}
+
+li.parsley-minlength {
+	color: #FBAF3F;
+}
+
+section.formSubmitted {
+	margin: 1em;
+}
+
+div.formResults {
+	display: block;
+	margin: 1em;
+	color: #FBAF3F;
+}
+
+.formThanks {
+	display: block;
+	margin: 1em;
+	color: #FBAF3F;
+}
+
+.formName {
+	display: block;
+	margin: .5em 1em 2em 1em;
+	color: #FBAF3F;
+	font-size: 1.25em;
+}
+
+
+/*To show IP address=======================*/
+#locStorageDiv {
+	display: block;
+	margin: 1em;
+	text-align: center;
+}
+
+a#locStorageA  {
+	display: block;
+	margin: 1em;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+}
+
+a:hover#locStorageA  {
+	display: block;
+	margin: 1em;
+	text-decoration: none;
+	font-weight: bold;
+	color: #FBAF3F;
+}
+
+#locStorageValues {
+	display: block;
+	margin: 1em;
+	color: #fff;
+}
+
+
+/*Solutions/Gallery Page====================*/
+.flickrResults {
+	display: block;
+	margin: 0 1em 3em 3em;
+	color: #6D6E70;
+	word-wrap: break-word;
+	text-align: left;
+
+}
+
+.pic {
+	display: inline-block;
+	width: 250px;
+	margin: 2em 4em;
+	vertical-align: top;
+}
+
+.picTitle {
+	display: block;
+	margin: 1em;
+}
+
+.picLink a {
+	display: block;
+	margin: 1em;
+
+}
+
+.picLink a:hover {
+	display: block;
+	margin: 1em;
+	color: #FBAF3F;
+}
+
+
+.picDesc {
+	display: block;
+	margin: 1em;
+}
+
+.picPub {
+	display: block;
+	margin: 1em;
+}
+
+.picAuthor {
+	display: block;
+	margin: 1em;
+}
+
+
+
