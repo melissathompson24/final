@@ -45,6 +45,7 @@ img {
 
 main {
 	color: #fff;
+	display: block;
 }
 
 .padding {
@@ -87,16 +88,16 @@ footer a:hover {
 
 /*Inner Pages===============================*/
 
-.gradient {
+/*.gradient {
 	margin-top: -1.5em;
 	padding: .5em 0 .5em 0;
-	/*Fall-back color*/
+	/*Fall-back color
 	background-color: #1B75BB;
 	background-image: linear-gradient(to right, #00A585, #1B75BB, #39B27B);
 	background: #1B75BB;
 	background: linear-gradient(to right, #00A585, #1B75BB, #39B27B);
 	overflow: hidden;
-}
+}*/
 
 h1 {
 	color: #fff;
